@@ -1,4 +1,4 @@
-# BDMF
+# HedgeBoi
 Ferramenta de analise de precos para tomada de decisao sobre a realizacao da estrategia de hedge para a commodity boi-gordo 
 utilizando dados de preco diario do mercado fisico em diferentes pracas pelo Brasil e dados da BMeF Bovespa para realizar o
 calculo da "base"
