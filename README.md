@@ -7,12 +7,14 @@ Passo 1: Problema a ser resolvido
 
 Passo 2: Preparacao e exploracao dos dados
  
- Banco de dados do mercado fisico de boi gordo no Brasil
+##Banco de dados do mercado fisico de boi gordo no Brasil
  
- Banco de dados da BMeF Bovespa
+##Banco de dados da BMeF Bovespa
 
 Passo 3: Criacao do modelo
 
 Passo 4: Automatizacao do processo
+
+##Web Scraping
 
 Passo 5: Apresesntacao do resultado
