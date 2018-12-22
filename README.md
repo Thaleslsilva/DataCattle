@@ -15,6 +15,7 @@ Passo 3: Criacao do modelo
 
 Passo 4: Automatizacao do processo
 
-##Web Scraping
+## Web Scraping
+https://www.scotconsultoria.com.br/cotacoes/boi-gordo/?ref=smn
 
 Passo 5: Apresesntacao do resultado
