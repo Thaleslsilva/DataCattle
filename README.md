@@ -8,13 +8,13 @@ As ferramentas disponíveis neste repositório foram criadas e testadas utilizan
 
 # Etapas do Projeto
 
-* ## Passo 1
+* ## Passo 1 - Em andamento
     * Solução de Business Inteligence open source
     
     ![Dashboard](https://github.com/Thaleslsilva/DataCattle/blob/master/Dashboard.png)
 
-* ## Passo 2
+* ## Passo 2 - A fazer
     * Modelos preditivos via machine learnig para a base nas praças estudadas utilizando dados históricos
 
-* ## Passo 3
+* ## Passo 3 - A fazer
     * Aplicação web com solução analítica para PC's, tablets e smartfones.
