@@ -8,7 +8,7 @@ As ferramentas disponíveis neste repositório foram criadas e testadas utilizan
 
 # Etapas do Projeto
 
-## * Step 1
+* ## Step 1
   * Solução de Business Inteligence open source
 
 ## * Step 2
