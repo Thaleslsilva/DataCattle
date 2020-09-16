@@ -10,7 +10,6 @@
 # Obs: Caso tenha problemas com a acentuação, consulte este link:
 # https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
 
-
 rm(list=ls())
 setwd("C:/Users/Thales/Dropbox/Repositories/DataCattle/")
 
