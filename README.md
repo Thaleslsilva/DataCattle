@@ -10,11 +10,10 @@ As ferramentas disponíveis neste repositório foram criadas e testadas utilizan
 
 * ## Passo 1
     * Solução de Business Inteligence open source
+    ![Dashboard](https://github.com/Thaleslsilva/DataCattle/blob/master/Dashboard.png)
 
 * ## Passo 2
     * Modelos preditivos via machine learnig para a base nas praças estudadas utilizando dados históricos
 
 * ## Passo 3
     * Aplicação web com solução analítica para PC's, tablets e smartfones.
-
-
