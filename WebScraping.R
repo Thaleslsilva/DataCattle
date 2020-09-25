@@ -45,7 +45,6 @@ for (i in seq_along(results)) {
 
 # Dataset final
 df <- bind_rows(records)
-df
 
 # Criando nome e endereço do arquivo para exportar
 nome_data <- as.character(data)
