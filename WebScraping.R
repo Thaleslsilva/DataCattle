@@ -45,6 +45,7 @@ for (i in seq_along(results)) {
 
 # Dataset final
 df <- bind_rows(records)
+df
 
 # Criando nome e endereço do arquivo para exportar
 nome_data <- as.character(data)
@@ -61,7 +62,8 @@ filenames<-dir(pattern="*.csv")
 
 for (k in filenames) {
   if (k != nome_arquivo) {
-    write.table(df[,-1], file = cotacao, row.names = F, col.names = F, sep = ",")
+    write.table(df[,-1], file = cotacao, row.names = F, col.names = F, 
+                quote = FALSE, sep = ";")
 
     #==========================================================================
     # Enviar email com o resultado da coleta de dados                         #
