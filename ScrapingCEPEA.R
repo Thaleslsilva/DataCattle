@@ -2,7 +2,7 @@
 #
 # WEB SCRAPING do indicador de Boi Gordo CEPEA/B3 e atualização da série histórica
 #
-# V.1 (24/09/2020)                                     Dev.: Thales de Lima Silva  
+# V.1 (27/09/2020)                                     Dev.: Thales de Lima Silva  
 #
 ##################################################################################
 
