@@ -31,17 +31,21 @@ dados <- strsplit(dados, "\r\n")
 
 # Selecionado dados e formatando a data
 Data  <- as.Date(dados[[1]][1], format = " %d/%m/%Y ")
-Valor <- dados[[1]][2]
+CEPEA <- dados[[1]][2]
 
 # Criando data.frame com dados selecionados
-df <- data.frame(Data, Valor)
+df <- data.frame(Data, CEPEA)
 
 # Lendo arquivo de dados e corrigindo a formatação
 cepea <- read.csv("IndBG_CEPEA.csv", header = T,  sep = ";")
 cepea$Data  <- as.Date(cepea$Data, format = " %Y-%m-%d ")
 
 # Incluindo dados coletados ao data.frame
-cepea <- rbind(cepea, df)
+lastdate <- max(cepea$Data)
+
+if (df$Data != lastdate) {
+  cepea <- rbind(cepea, df)
+}
 
 # Salvando base de dados atualizada
 write.table(cepea, "IndBG_CEPEA.csv", row.names = F, col.names = T,
